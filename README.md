@@ -36,6 +36,24 @@ Source: Malware-Traffic-Analysis.net
 
 ---
 
+## Supporting Evidence
+
+Screenshots of the investigation are available in the `/screenshots` directory and correspond to:
+
+- HTTP GET and 200 OK confirmation of `/shrk.bin`
+- Repeated TLS Client Hello sessions (SNI: b1.encountergulf.world)
+- Filtered traffic view confirming single internal host impact
+
+---
+
+### Example Evidence Snapshot
+
+HTTP GET request and 200 OK confirmation of `/shrk.bin`:
+
+![HTTP GET Evidence](screenshots/http-get.png)
+
+---
+
 ## Indicators of Compromise (IOCs)
 
 Internal Host:
