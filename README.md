@@ -12,8 +12,10 @@ The objective was to:
 
 ## Environment
 
-- Windows 10 Virtual Machine (VirtualBox)
-- Wireshark for packet analysis
+- Windows 10 Virtual Machine (VirtualBox) for packet analysis
+- Kali Linux Virtual Machine (VirtualBox) for offline file hashing
+- Wireshark for network traffic inspection
+- sha256sum (Linux) for payload integrity verification
 
 ---
 
@@ -69,6 +71,7 @@ Domains:
 Follow-up Payload:
 - URL: http://h4.chatterscaled.top/shrk.bin
 - SHA256: 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6
+- Hash calculated in isolated Kali Linux VM to avoid disabling host protections
 - File Size: 8,359,712 bytes
 
 ---
